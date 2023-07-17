@@ -54,17 +54,21 @@ nav {
     margin: 0 auto;
     height: 500px;
     margin-top: 40px;
-    background-color: aliceblue;
     display: flex;
+    margin: 0 auto;
     align-items: center;
     justify-content: space-between;
 }
+ .section1text {
+    margin: 70px;
+ }
  .section1text , .section1img {
     width: 50%;
  }
  .section1text .section1h1 {
     font-size: 40px;
     padding-left: 20px;
+   
     text-transform: capitalize;
     color: #131313;
  }
@@ -88,7 +92,7 @@ nav {
 
  }
  .section1img img {
-    width: 100%;
+    width: 400px;
  }
 
 /*--------header end-------*/
@@ -119,6 +123,12 @@ nav {
         height: auto;
         width: 100%;
      }
+     .section1img img {
+        width: 80%;
+        margin-top: 15px;
+        margin-left: 17px;
+     }
+
      .section1text ,.section1img {
         width: 100%;
      }
