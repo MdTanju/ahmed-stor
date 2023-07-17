@@ -73,7 +73,7 @@ nav {
     color: #131313;
  }
  .section1text .section1p {
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 20px;
  }
  .section1text .section1button {
@@ -95,7 +95,40 @@ nav {
     width: 400px;
  }
 
-/*--------header end-------*/
+/*--------section1 end ------*/
+
+/*--------section--2--star------*/
+.section2{
+    width: 100%;
+    margin-bottom: 100px;
+}
+ .all-logo {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+ }
+ .logo-part {
+    width: 140px;
+    height: 100px;
+    margin: 0 auto;
+   margin-left:10px ;
+    background-color: aliceblue;
+   border-radius: 12px;
+   
+    
+ }
+ .logo-part img {
+    width: 90px;
+    margin-top: 40px;
+    margin-left: 30px;
+    
+
+ }
+
+/*--------section--2-- end------*/
 
 
 
@@ -108,7 +141,8 @@ nav {
 
 @media screen and (max-width:576px){
 
-    nav {
+    nav  ,
+    .all-logo{
         flex-direction: column;
     }
     
@@ -123,6 +157,9 @@ nav {
         height: auto;
         width: 100%;
      }
+     .menu a {
+        font-size: 12px;
+     }
      .section1img img {
         width: 80%;
         margin-top: 15px;
@@ -132,5 +169,14 @@ nav {
      .section1text ,.section1img {
         width: 100%;
      }
+
+     /* ---header--and--section1--*/
+    .logo-part {
+        margin-left: 100PX;
+        margin-bottom: 10px;
+
+
+    }
+
     
 }
