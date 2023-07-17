@@ -198,6 +198,9 @@ nav {
     .section3cardbox
     {
         flex-direction: column;
+    } 
+    .section1img {
+        background-size: auto;
     }
      .logo {
         margin-bottom: -50px;
