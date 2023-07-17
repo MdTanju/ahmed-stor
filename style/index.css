@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+}
+nav {
+    width: 90%;
+    margin:0 auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.logo {
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 20px;
+    font-style: italic;
+    margin-left: 40px;
+}
+.menu {
+    margin-left: 60px;
+}
+
+.menu ul {
+    display: flex;
+   
+    justify-content: space-between;
+}
+.menu li {
+    padding: 10px;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #131313;
+    
+}
+
+/*--------header end-------*/
+
+/*--------main -------*/
+/*--------section 1 -------*/
+
+.section1 {
+    width: 90%;
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 40px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .section1text , .section1img {
+    width: 50%;
+ }
+ .section1text .section1h1 {
+    font-size: 40px;
+    padding-left: 20px;
+    text-transform: capitalize;
+    color: #131313;
+ }
+ .section1text .section1p {
+    font-size: 20px;
+    padding-left: 20px;
+ }
+ .section1text .section1button {
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left:20px;
+    border-radius: 10px;
+    background-color: rgb(246, 117, 97);
+ }
+ .section1img {
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+
+ }
+
+/*--------header end-------*/
+
+
+
+
+
+
+
+
+/* media */
+
+@media screen and (max-width:576px){
+
+    nav {
+        flex-direction: column;
+    }
+    
+    nav  .logo ,.menu  {
+        padding: 10px;
+        margin: 10px;
+    }
+     .section1 {
+        flex-direction: column-reverse;
+        padding: 10px;
+        margin: 10px;
+        height: auto;
+        width: 100%;
+     }
+     .section1text ,.section1img {
+        width: 100%;
+     }
+    
+}
